@@ -115,15 +115,31 @@ body {
 
 .launching-soon {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   width: 200px;
-  transform: translate(-50%, -50%);
+  /*background-color: purple;*/
+  transform: translate(-65%, -50%);
   color: wheat;
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Raleway Dots';
   font-size: 48px;
 }
 
+/* ======================= MOBILE ==========================*/
+
+@media screen and (max-width: 450px) {
+  .launching-soon {
+    width: 100px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .launching-soon {
+    width: 100px;
+    font-size: 30px;
+  }
+}
 
 
 
